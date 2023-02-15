@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget {
     return BlocProvider<CounterCubit>(
       create: (context) => CounterCubit(),
       child: MaterialApp(
-        title: 'Flutter Bloc Practice',
+        title: 'Flutter Bloc Testing',
         theme: ThemeData(
           primarySwatch: Colors.red,
         ),
-        home: const MyHomePage(title: 'Flutter Bloc Practice'),
+        home: const MyHomePage(title: 'Flutter Bloc Testing'),
       ),
     );
   }
